@@ -11,3 +11,15 @@
 
 ### easy-question folder
 - it comprise of easy question done using with javascript 
+
+
+
+### problems i faced
+- for BigInt use 'n' after any number 
+- to make private methods either use _name or #name to make it private 
+
+
+
+
+
+
