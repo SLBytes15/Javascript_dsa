@@ -20,6 +20,9 @@
 
 
 
+### Daily Learning
+- arrow function doesn't have "this"
+
 
 
 
