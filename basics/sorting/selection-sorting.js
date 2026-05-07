@@ -10,9 +10,7 @@ for (let i = 0; i < array.length-1 ; i++) {
         
         if(array[j] < array[i]){
             console.log(array[i] + " " + array[j]);
-            let temp = array[j];
-            array[j] = array[i];
-            array[i] = temp; 
+            [array[i], array[j]] = [array[j], array[i]];
             console.log(array[i] + " " + array[j]);
 
         }
