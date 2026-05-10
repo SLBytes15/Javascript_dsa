@@ -1,7 +1,6 @@
 let num = [1, 7, 7, 7, 7, 5]; 
 const arr = [...new Set(num)]; 
 
-let max = [];
 let index = 0;
 
 
@@ -13,7 +12,7 @@ for (let i = 0; i < arr.length - 1; i++) {
     }
 }
 
-console.log(arr);
+console.log(arr[arr.length-2]);
 
 
 
